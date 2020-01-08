@@ -75,7 +75,7 @@ Note: I'd like to make this project easily available/installable from pip, but I
 
 ### Release
 
-version: 1.0.0
+version: 0.0.1
 
 #### How to release
 ```bash
