@@ -71,3 +71,17 @@ syllable counts if more than one word is provided in the input string.
 For another Python package that offers support for rhyming and syllable counts (as well as other cool things), see [pronouncingpy](https://github.com/aparrish/pronouncingpy).
 
 Note: I'd like to make this project easily available/installable from pip, but I don't know how. Looking for help!
+
+
+### Release
+
+version: 1.0.0
+
+#### How to release
+```bash
+pip install setuptools wheel twine
+python setup.py sdist
+python -m twine upload --repository  testpypi dist/*
+python -m twine upload --repository  pypi dist/*
+rm -rf dist *.egg-info MANIFEST
+```
