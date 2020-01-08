@@ -4,7 +4,7 @@ with open("README.md", 'r') as f:
     long_description = f.read()
 
 setup(
-    name='English to IPA',
+    name='eng_to_ipa',
     version='0.0.1',
     description='take English text and convert it to IPA',
     author=['mphilli', 'Mitchellpkt', 'CanadianCommander', 'timvancann'],
