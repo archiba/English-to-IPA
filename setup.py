@@ -1,7 +1,7 @@
 from setuptools import setup
 
 with open("README.md", 'r') as f:
-    long_description = f.read()
+    long_description = f.read(encoding='utf-8')
 
 setup(
     name='eng_to_ipa',
